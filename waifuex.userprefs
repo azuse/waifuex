@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UIController.cs">
+    <Files>
+      <File FileName="Assets\Live2D\Cubism\Samples\Raycasting\RaycastHitDisplay.cs" Line="1" Column="1" />
+      <File FileName="..\Waifuex\Assets\Live2D\Cubism\Framework\Raycasting\CubismRaycaster.cs" Line="1" Column="1" />
+      <File FileName="Assets\Live2D\Cubism\Framework\ComponentExtensionMethods.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\KoharuControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UIController.cs" Line="80" Column="70" />
+      <File FileName="Assets\Scripts\AutoChat.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
