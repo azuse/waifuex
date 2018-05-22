@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\utils\ModelSetting.cs" />
     <Compile Include="Assets\Scripts\utils\ModelSettingJson.cs" />
     <Compile Include="Assets\Scripts\utils\TouchManager.cs" />
+    <Compile Include="Assets\Scripts\utils\WavUtility.cs" />
     <None Include="Assets\Live2D\Resources\shader\merged\Live2D.shader" />
     <None Include="Assets\Live2D\Resources\shader\merged\Live2D-Masked.shader" />
     <None Include="Assets\Live2D\Resources\shader\merged\Live2D-PremultipliedAlpha.shader" />

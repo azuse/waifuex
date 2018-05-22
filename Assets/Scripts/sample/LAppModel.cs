@@ -409,7 +409,7 @@ public class LAppModel :L2DBaseModel
 
             AudioClip acVoice = FileManager.LoadAssetsSound(modelHomeDir+soundPath);
             if (LAppDefine.DEBUG_LOG) Debug.Log("Start motion : " + motionName + "  voice : " + soundPath);
-            StartVoice( acVoice);
+            StartVoice(acVoice);
             mainMotionManager.startMotionPrio(motion, priority);
         }
     }
