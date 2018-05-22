@@ -3,6 +3,9 @@ using System;
 using System.Text.RegularExpressions;
 using live2d.framework;
 using live2d;
+using System.Text;
+using System.IO;
+
 
 /*
  * LAppModel は低レベルのLive2Dモデル定義クラス Live2DModelUnity をラップし
@@ -79,7 +82,16 @@ public class LAppModel :L2DBaseModel
 		var data = Live2DFramework.getPlatformManager().loadString(modelHomeDir + filename);
         Init(data);
     }
-   
+    public void LoadFromPath(String Path)
+    {
+        if (LAppDefine.DEBUG_LOG) Debug.Log(Path);
+        StreamReader SR = new StreamReader(Path, Encoding.Default);
+        var data = SR.ReadToEnd();
+        SR.Close();
+        modelHomeDir = FileManager.getDirName(Path);
+        Debug.Log(modelHomeDir);
+        Init(data);
+    }
 
     /*
      * モデルを初期化する

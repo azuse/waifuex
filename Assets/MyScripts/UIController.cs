@@ -42,6 +42,19 @@ public class UIController : MonoBehaviour {
 				break;
 			}
 		}
+        switch (Configs["DefaultModel"])
+        {
+            case "true":
+                {
+                    Dropdowns[2].value = 0;
+                    break;
+                }
+            case "false":
+                {
+                    Dropdowns[2].value = 1;
+                    break;
+                }
+        }
         ModelPath.text = Configs["ModelPath"];
 	}
 
@@ -74,6 +87,19 @@ public class UIController : MonoBehaviour {
 				break;
 			}
 		}
+        switch (Dropdowns[2].value)
+        {
+            case 0:
+                {
+                    Configs["DefaultModel"] = "true";
+                    break;
+                }
+            case 1:
+                {
+                    Configs["DefaultModel"] = "false";
+                    break;
+                }
+        }
         Configs["ModelPath"] = ModelPath.text;
     }
 
